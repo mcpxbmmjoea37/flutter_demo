@@ -1,4 +1,15 @@
 {
     "image": "cirrusci/flutter:beta",
-    "forwardPorts": [3000]
+	"forwardPorts": [
+		3000
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"Dart-Code.flutter",
+				"Dart-Code.dart-code"
+			]
+		}
+	}
 }
